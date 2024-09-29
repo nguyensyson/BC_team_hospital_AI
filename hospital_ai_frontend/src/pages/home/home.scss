@@ -1,0 +1,40 @@
+$nav-active-color: #4fe0b6;
+.bottom-navigation {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+}
+
+.card-list-content {
+  min-height: calc(100vh - 168px) !important;
+}
+
+.tabs {
+    & .Mui-selected {
+      color: $nav-active-color !important; 
+    }
+  
+    & .MuiTabs-indicator {
+      background-color: $nav-active-color; 
+    }
+
+    & .MuiTabs-scrollButtons {
+      width: 20px;
+    }
+  }
+
+  .bottom-navigation {
+    & .MuiBottomNavigationAction-root {
+      &.Mui-selected {
+        color: $nav-active-color; 
+      }
+  
+      &:hover {
+        color: $nav-active-color; 
+      }
+    }
+  }
+  
+  

@@ -1,0 +1,20 @@
+/* src/styles.scss */
+$header-bg-color: #fff;
+$shadow-color: rgba(0, 0, 0, 0.2);
+
+.header {
+  background-color: $header-bg-color !important;
+  box-shadow: 0 1px 5px $shadow-color !important;
+  width: 100%;
+  z-index: 1000;
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+
+    img {
+      height: 40px; // Điều chỉnh chiều cao của logo
+    }
+  }
+}
